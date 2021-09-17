@@ -1,0 +1,23 @@
+.principal{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+
+.cuadro {
+    background-color: blueviolet;
+    width: 20%;
+    height: 200px;
+    margin: 10px;
+
+}
+
+footer{
+    background-color: red;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
