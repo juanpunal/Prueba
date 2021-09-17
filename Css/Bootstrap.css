@@ -1,0 +1,12 @@
+body{
+    background-image: url(../img/images.jpeg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+   
+}
+
+
+.btn-primary:hover{
+    background-color: red;
+
+}
