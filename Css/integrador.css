@@ -1,0 +1,192 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nv ul{
+    background-color:#353A40 ;
+    margin: 0;
+    position: sticky;
+    justify-content: right;
+    z-index: -1;
+}
+.nv a{
+    color: #9B999C;
+}
+li a {
+padding: 30px 16px;
+text-decoration: none;
+font-size: 12px;
+}
+li a:hover{
+    color: white;
+}
+
+li a:active{
+    color:white;
+}
+
+#conf .img-fluid{
+    z-index: -1;
+    opacity: 1;
+    filter: brightness(60%);
+}
+
+.right{
+    position:absolute;
+    top: 280px;
+    right: 106px;
+    font-size: 18px;
+    width: 350px;
+    color: white;
+    text-align: right;
+    font-size: 15px;
+}
+
+span{
+    font-size: 30px;
+}
+
+.right button{
+    font-size: 10px;
+    margin: 10px;
+    padding: 10px;
+    
+
+}
+
+#uno{
+    background-color: rgba(255, 255, 255, 0);
+    border: white solid 1px;
+}
+
+#uno:hover{
+    background-color: #9B999C;
+
+}
+
+
+
+#dos{
+    background-color: #26A645;
+    border:none;
+}
+
+#oradores .row{
+    width: 100%;
+    margin-left:1px;
+    justify-content: space-around;
+
+}
+
+#oradores{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #676f90;
+}
+
+#oradores span{
+    font-size: 40px;
+    color: black;
+}
+
+.card-body{
+    text-align: left;
+    font-size: 10px;
+}
+
+.card{
+    margin: 0;
+    border-radius: 0%;
+}
+
+.card-image-top{
+    width: fit-content;
+}
+
+.btn{
+    padding: 2px;
+    font-size: 10px;
+
+}
+
+#gris{
+    background-color: #353A40;
+    color:white;
+}
+
+
+#gris .btn{
+    border:solid white 1px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#conv{
+    text-align:center;
+    color:#676f90 ;
+    font-size: 15px;
+}
+
+#conv .row{
+    width: 800px;
+    margin:auto;
+    text-align:start ;
+    font-size: 10px;
+    color:#676f90 ;
+}
+
+footer{
+    display: flexbox;
+}
+
+footer div{
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #1e516e;
+}
+
+footer ul{
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+footer li{
+    margin: 5px;
+
+}
+
+footer a{
+    color:white;
+}
+
+#tres{
+    background-color: #96c93e;
+    border:none;
+    color:white;
+    height: 30px;
+    margin-bottom: 15px;
+    padding-top: 7px;
+    font-size: 13px;
+}
+
+#gris{
+    margin-left:-10px;
+}
+
+#boton-lugar:hover{
+    background-color: #9B999C;
+}
+
+.img_codo span{
+    position: absolute;
+    top: 15px;
+    color:white;
+    font-size: 20px ;
+    left: 40px;
+}
