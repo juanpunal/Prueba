@@ -9,9 +9,7 @@ ul {
 .nv ul{
     background-color:#353A40 ;
     margin: 0;
-    position: sticky;
     justify-content: right;
-    z-index: -1;
 }
 .nv a{
     color: #9B999C;
@@ -189,4 +187,5 @@ footer a{
     color:white;
     font-size: 20px ;
     left: 40px;
+    text-decoration: none;
 }
