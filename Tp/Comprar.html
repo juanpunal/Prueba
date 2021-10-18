@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codo a codo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Css/integrador.css">
+
+
+</head>
+
+<body>
+    <div class="nv">
+        <a class="img_codo" href="Index.html">
+            <span>Conf Bs As</span>
+        </a>
+        <ul>
+            <li><a class="active" href="Index.html" >La conferencia</a></li>
+            <li><a href="Index.html#oradores">Los oradores</a></li>
+            <li><a href="Index.html#lugar">El lugar y la fecha</a></li>
+            <li><a href="Index.html#conv">Conviertete en orador</a></li>
+            <li><a  href="Comprar.html" style= "color: #299c43;">Comprar Tickets</a></li>
+        </ul>
+    </div>
+
+    <section class="container" id="comprar">
+
+        <div class="tarjetas">
+            <div id="estudiante">
+                <h5>Estudiante</h5>
+                <p>Tiene un descuento</p>
+                <span>80% <br></span>
+                <sub>*Presentar documentacion</sub>
+
+            </div>
+
+            <div id="trainee">
+                <h5>Trainee</h5>
+                <p>Tiene un descuento</p>
+                <span>50% <br></span>
+                <sub>*Presentar documentacion</sub>
+
+
+            </div>
+
+            <div id="junior">
+                <h5>Junior</h5>
+                <p>Tiene un descuento</p>
+                <span>15% <br></span>
+                <sub>*Presentar documentacion</sub>
+
+            </div>
+        </div>
+
+        <div class="row" id="form">
+
+            <span style="font-size: 15px; color: gray;">VENTA</span>
+            <h2>VALOR DE TICKET $200</h2>
+            <div class="col-6">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            </div>
+            <div class="col-6">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+            </div>
+            <div class="col-12">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+            </div>
+            <div class="col-6" id="cantidad">
+                <span>Cantidad</span>
+                <input type="text" class="form-control" id="cantidad-input" placeholder="Cantidad">
+            </div>
+
+
+            <form class="col-6 mt-2" id="selector">
+                <label for="Categorias">Categorias</label>
+                <select class="form-select" aria-label="Disabled select example" name="Categorias">
+                    <option >Estudiante</option>
+                    <option >Trainee</option>
+                    <option >Junior</option>
+                </select>
+            </form>
+
+            <div id="Total">Total a Pagar: $</div>
+
+
+
+            <div class="botones">
+                <button id="borrar" onclick="borrar()">Borrar</button>
+                <button id="resumen" onclick="comprarTickets()">Resumen</button>
+            </div>
+           
+        </div>
+
+
+    </section>
+    
+  
+
+    <footer>
+        <div>
+            <ul>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Contactanos</a></li>
+                <li><a href="#">Prensa</a></li>
+                <li><a href="#">Conferencias</a></li>
+                <li><a href="#">Terminos y condiciones</a></li>
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Estudiante</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="../Javascript/Tp.js"></script>
+
+        
+        
+    
+    
+</body>
+</html>
