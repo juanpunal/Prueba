@@ -1,5 +1,9 @@
+<%-- 
+    Document   : Ventas
+    Created on : 25 nov. 2021, 16:08:15
+    Author     : nina
+--%>
 
-<%@page import="java.util.Scanner"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -8,10 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <%
-            
-        
-        %>
-        <h1>Hello</h1>
+        <h1>Ventas</h1>
     </body>
 </html>
